@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christian Komann · Engineering</title>
+  <meta name="description" content="Christian Komann – Entwicklungsingenieur für Medizintechnik und technische Kunststoffprodukte.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #fafaf7;
+      color: #1a1a1a;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      flex: 1;
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 80px 32px 40px;
+      width: 100%;
+    }
+    .accent-bar {
+      width: 48px;
+      height: 3px;
+      background: #1F4E79;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 34px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+      color: #1a1a1a;
+    }
+    .role {
+      font-size: 18px;
+      font-weight: 500;
+      color: #1F4E79;
+      margin-bottom: 32px;
+    }
+    .intro {
+      font-size: 17px;
+      color: #3a3a3a;
+      margin-bottom: 40px;
+    }
+    .offer-list {
+      list-style: none;
+      margin-bottom: 48px;
+    }
+    .offer-list li {
+      padding: 10px 0;
+      padding-left: 24px;
+      position: relative;
+      color: #2a2a2a;
+      font-size: 16px;
+    }
+    .offer-list li::before {
+      content: "→";
+      position: absolute;
+      left: 0;
+      color: #1F4E79;
+      font-weight: 500;
+    }
+    .contact {
+      padding-top: 32px;
+      border-top: 1px solid #e5e3dc;
+    }
+    .contact-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #888;
+      margin-bottom: 12px;
+    }
+    .contact a {
+      display: inline-block;
+      color: #1F4E79;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 16px;
+      margin-right: 24px;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.2s;
+    }
+    .contact a:hover {
+      border-bottom-color: #1F4E79;
+    }
+    footer {
+      max-width: 640px;
+      margin: 0 auto;
+      padding: 24px 32px 32px;
+      width: 100%;
+      font-size: 13px;
+      color: #888;
+    }
+    .status {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      background: #eaf3de;
+      color: #3b6d11;
+      border-radius: 16px;
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+    .status::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background: #639922;
+      border-radius: 50%;
+    }
+    @media (max-width: 480px) {
+      main { padding: 48px 24px 32px; }
+      h1 { font-size: 28px; }
+      .role { font-size: 16px; }
+      .contact a { display: block; margin: 0 0 10px 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="accent-bar"></div>
+    <h1>Christian Komann</h1>
+    <p class="role">Engineering · Medtech &amp; Kunststofftechnik</p>
+
+    <p class="intro">
+      Entwicklung von Medizintechnik und technischen Kunststoffprodukten. 18 Jahre Erfahrung in regulierten Märkten.
+    </p>
+
+    <div class="contact">
+      <p class="contact-label">Kontakt</p>
+      <a href="mailto:christian@komann-engineering.ch">christian@komann-engineering.ch</a>
+      <a href="https://www.linkedin.com/in/christian-komann-2748bab7/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Christian Komann · St. Gallen, Schweiz
+  </footer>
+</body>
+</html>
